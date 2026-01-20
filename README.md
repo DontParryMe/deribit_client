@@ -1,4 +1,4 @@
-# Crypto Prices API
+# Deribit Client App
 
 Асинхронное приложение для получения и хранения котировок криптовалют (BTC, ETH и других) с API Deribit.  
 Используется FastAPI для REST API, SQLAlchemy для работы с PostgreSQL и Celery + Redis для асинхронного сбора данных.
@@ -46,11 +46,11 @@
 
 1. Создаём .env файл в корне проекта, как в .env.example
 
-# 2. Клонируем репозиторий
+# 2. Clone repository
 git clone <your-repo-url>
 cd crypto-prices
 
-# 3. Устанавливаем зависимости
+# 3. Install dependencies
 python -m venv .venv
 
 # Linux / Mac
