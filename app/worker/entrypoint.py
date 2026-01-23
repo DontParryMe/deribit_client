@@ -20,7 +20,7 @@ celery_app.conf.timezone = "UTC"
 celery_app.conf.beat_schedule = {
     "fetch-every-minute": {
         "task": "worker.fetch_prices_task",
-        "schedule": 15.0,
+        "schedule": 60,
     }
 }
 
