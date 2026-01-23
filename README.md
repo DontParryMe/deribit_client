@@ -47,7 +47,7 @@
 1. Создаём .env файл в корне проекта, как в .env.example
 
 # 2. Clone repository
-git clone <your-repo-url>
+git clone git@github.com:DontParryMe/deribit_client.git
 cd crypto-prices
 
 # 3. Install dependencies
